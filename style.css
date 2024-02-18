@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 12%);
+  height: 500px;
+  width: 300px;
+  margin: 100px auto 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.circle img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.name h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.name h4 {
+  color: hsl(75, 94%, 57%);
+  margin: 0;
+}
+
+.name p {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
+  margin-top: 20px;
+}
+
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 80%;
+  margin-top: 10px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+.link:hover, .link a:hover{
+  background-color: hsl(74, 32%, 24%);
+  color: #1f1f1f;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
